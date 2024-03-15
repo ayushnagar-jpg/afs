@@ -1,0 +1,62 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f6f7f9;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.register-input {
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f0f2f5;
+    transition: border-color 0.3s;
+}
+
+.register-input:focus {
+    border-color: #007bff;
+}
+
+.register-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+}
+
+.register-login-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-login-link:hover {
+    color: #0056b3;
+}

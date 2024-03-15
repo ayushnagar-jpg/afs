@@ -1,0 +1,87 @@
+.post_box
+{
+    background: black;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    overflow-y: scroll;
+}
+
+.post_box::-webkit-scrollbar
+{
+    overflow: hidden;
+}
+
+
+.post_footer
+{   
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    margin-top: 460px;
+    
+}
+
+.post_create
+{
+    border-radius: 50px;
+    /* position: fixed; */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.post_create:hover
+{
+    background-color: black;
+}
+
+.logout_button
+{
+    position: fixed;
+    margin-left: 240px;
+    margin-top: -50px;
+}
+
+.post_header
+{
+    position: fixed;
+    background-color: black;
+    width: 300px;
+    margin-top: -10px;
+}
+
+.post_div
+{
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+
+.post_data
+{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.post_data:hover
+{
+    background-color: white;
+}
+
+.about_button
+{
+    margin-left: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.about_button:hover
+{
+    background-color: black;
+}

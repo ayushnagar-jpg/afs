@@ -1,0 +1,67 @@
+/* Login Box Styles */
+.login_box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.login_heading {
+    font-size: 32px;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input Styles */
+.login_input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Error Message Styles */
+.login_error {
+    color: #dc3545;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Button Styles */
+.login_button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login_button:disabled {
+    background-color: #b5c3d5;
+    cursor: not-allowed;
+}
+
+.login_button:hover:enabled {
+    background-color: #0056b3;
+}
+
+/* Register Button Styles */
+.login_reg_button {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.login_reg_button:hover {
+    text-decoration: underline;
+}
